@@ -54,3 +54,7 @@ The fixture tests use the exact Phase 0 files. They skip when the environment
 variable is unset. Source documentation is in the docs folder.
 
 Set `OLDEN_ERA_PREVIEW_FIXTURES` to the folder containing `empty.96x64(1).map` to run the editor-coordinate regression.
+
+## Licensing and credits
+
+See [Licensing and credits](LICENSE-NOTICE.md) for project intent and upstream references, and [AGENTS.md](AGENTS.md) for contributor guidance.
