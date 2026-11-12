@@ -1,0 +1,8 @@
+.vscode/**
+webview/**
+tests/**
+docs/**
+**/*.map
+package-lock.json
+
+downloads/**

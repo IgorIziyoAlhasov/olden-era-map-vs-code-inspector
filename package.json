@@ -1,0 +1,65 @@
+{
+  "name": "olden-era-map-inspector",
+  "version": "0.6.5",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || >=24",
+    "vscode": "^1.100.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "build": "vite build --config webview/vite.config.js",
+    "package": "npm run build && vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  },
+  "displayName": "Olden Era Map Inspector",
+  "description": "Read-only inspector for Heroes of Might & Magic: Olden Era maps.",
+  "publisher": "olden-era-map-inspector",
+  "main": "./src/extension.cjs",
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "olden-era-map-inspector.map",
+        "displayName": "Olden Era Map Inspector",
+        "selector": [
+          {
+            "filenamePattern": "*.map"
+          }
+        ],
+        "priority": "option"
+      }
+    ],
+    "commands": [
+      {
+        "command": "olden-era-map-inspector.open",
+        "title": "Open Olden Era Map"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "olden-era-map-inspector.open",
+          "when": "resourceExtname == .map",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IgorIziyoAlhasov/olden-era-map-vs-code-inspector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IgorIziyoAlhasov/olden-era-map-vs-code-inspector/issues"
+  }
+}

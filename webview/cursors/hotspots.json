@@ -1,0 +1,156 @@
+{
+  "map-pointer": {
+    "label": "Empty tile",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-adventure-sites": {
+    "label": "Adventure Sites",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-altars-of-magic": {
+    "label": "Altars Of Magic",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-campaign-only": {
+    "label": "Campaign Only",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-dwellings": {
+    "label": "Dwellings",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-magic-amplifiers": {
+    "label": "Magic Amplifiers",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-markets-and-trade": {
+    "label": "Markets And Trade",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-mines": {
+    "label": "Mines",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-other": {
+    "label": "Other",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-portals": {
+    "label": "Portals",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-prison": {
+    "label": "Prison",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-resource-storage": {
+    "label": "Resource Storage",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-shrines": {
+    "label": "Shrines",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-special": {
+    "label": "Special",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-squad": {
+    "label": "Squad",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-town": {
+    "label": "Town",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-treasures-and-awards": {
+    "label": "Treasures And Awards",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "hover-unit-trade": {
+    "label": "Unit Trade",
+    "hotspot": [
+      3,
+      2
+    ]
+  },
+  "pan-ready": {
+    "label": "Pan ready",
+    "hotspot": [
+      16,
+      16
+    ]
+  },
+  "panning": {
+    "label": "Panning",
+    "hotspot": [
+      16,
+      16
+    ]
+  },
+  "move-object": {
+    "label": "Move object",
+    "hotspot": [
+      16,
+      16
+    ]
+  },
+  "move-blocked": {
+    "label": "Invalid destination",
+    "hotspot": [
+      16,
+      16
+    ]
+  }
+}
